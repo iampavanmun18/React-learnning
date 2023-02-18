@@ -1,0 +1,15 @@
+.form-control{
+
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+}
+
+.dropdown-toggle::after {
+    display:none !important;
+} 
+
+/* .form-control :focus{
+    border-color: red;
+    box-shadow: none;
+} */
