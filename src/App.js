@@ -3,6 +3,7 @@ import FileUpload from './components/FileUpload';
 import FetchData from './components/FetchData';
 import CustomForm from './components/CustomForm';
 import CustomuseMemo from './hooks/CustomuseMemo';
+import RegisterForm from './hooks/CustomUseFormHook';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* <FetchData/> */}
       {/* <CustomForm/> */}
       <CustomuseMemo/>
+      <RegisterForm/>
     </div>
   );
 }
